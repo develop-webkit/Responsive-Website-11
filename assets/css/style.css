@@ -1,0 +1,420 @@
+@font-face{
+	src: url(../fonts/FuturaPTBook.otf);
+	font-family: 'FuturaPTBook';
+}
+@font-face{
+	src: url(../fonts/FuturaPTLight.otf);
+	font-family: 'FuturaPTLight';
+}
+@font-face{
+	src: url(../fonts/FuturaPTBold.otf);
+	font-family: 'FuturaPTBold';
+}
+body, html{
+	margin:0;
+	font-size: 16px;
+}
+ul, ol{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+input:focus, button:focus, textarea:focus{
+	outline: none;
+}
+a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.nav_section{
+    background: #040200;
+    padding: .5rem 0;
+}
+.nav_section .bg-dark{
+    background: transparent !important;
+    padding: 0;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-family: 'FuturaPTLight';
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    color: white;
+    letter-spacing: .1rem;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+}
+.navbar-dark .navbar-nav .nav-link:hover,.navbar-dark .navbar-nav .nav-link:focus{
+    color: #FC8002;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #FC8002;
+}
+.header{
+    position: relative;
+    background: #040200;
+    padding: 2rem 0;
+}
+.header span{
+	display: inline-block;
+}
+.header .logo_box{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 11rem;
+    margin-bottom: 7rem;
+}
+.header .logo_box .logo{
+    width: 10rem;
+    display: inline-block;
+    position: absolute;
+    left: 0rem;
+    top: 0;
+}
+.header .logo_box .logo_text{
+    font-family: 'FuturaPTLight';
+    color: #FC8002;
+    font-size: 7.75rem;
+}
+.header .logo_box .white_text{
+    font-family: 'FuturaPTLight';
+    font-size: 4.75rem;
+    color: white;
+}
+.info_section{
+    position: relative;
+    text-align: center;
+    padding: 10rem 0;
+}
+.info_section .text{
+    font-family: 'FuturaPTBook';
+    font-size: 2.75rem;
+    color: #FC8002;
+}
+.order{
+    order: 2;
+}
+.detail_section{
+    position: relative;
+}
+.detail_section .text_box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+}
+.detail_section .text_box span{
+    width: 50%;
+}
+.detail_section .text_box .head{
+    text-transform: uppercase;
+    font-family: 'FuturaPTBold';
+    font-size: 2.15rem;
+}
+.detail_section .text_box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+.detail_section .text_box1{
+    background: #FC8002;
+}
+.detail_section .text_box2{
+    background: white;
+}
+.detail_section .text_box3{
+    background: black;
+}
+.detail_section .text_box1 .head,.detail_section .text_box3 .head{
+    color: white;
+}
+.detail_section .text_box3 p{
+    color: white;
+}
+.solution_section {
+    padding: 10rem 0;
+    position: relative;
+}
+.solution_section .head{
+    font-family: 'FuturaPTBook';
+    font-size: 2.75rem;
+    color: #FC8002;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+.solution_section .head span{
+    font-size: 2.15rem;
+    color: #282828;
+    font-family: 'FuturaPTLight';
+}
+.solution_section .text_box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.solution_section .text_box span{
+    width: 75%;
+}
+.solution_section .text_box .logo{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.solution_section .text_box .logo img{
+    width: 20rem;
+}
+.solution_section .text_box .logo2 img{
+    width: 16rem;
+}
+.solution_section .text_box p{
+    color: #292929;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+.header .samp_logo{
+    width: 32.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    max-width: 100%;
+}
+.header .main_text{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.maestro_section{
+    position: relative;
+}
+.maestro_section .text_box{
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.maestro_section .text_box p{
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    color: #312C29;
+    font-family: 'Open Sans', sans-serif;
+}
+.maestro_section .text_box p b{
+    font-family: 'FuturaPTBold';
+    font-size: 1.2rem;
+}
+.contact_section{
+    padding: 8rem 0;
+}
+.contact_section h4{
+    color: #F7951C;
+    font-size: 1.7rem;
+    margin-bottom: 1.75rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.contact_section input{
+    width: 100%;
+    height: 3rem;
+    border: 0;
+    background: #FDB040;
+    padding: .25rem 1rem;
+    text-align: center;
+    color: #040200;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.75rem;
+}
+.contact_section input::placeholder{
+    color: #040200;
+}
+.contact_section textarea{
+    width: 100%;
+    height: 10rem;
+    border: 0;
+    background: #FDB040;
+    padding: .75rem 1rem;
+    text-align: center;
+    color: #040200;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.75rem;
+    resize: none;
+}
+.contact_section textarea::placeholder{
+    color: #040200;
+}
+.contact_section .btn_submit{
+    background: #040200;
+    color: white;
+    border: 0;
+    font-size: 1rem;
+    padding: .75rem 5rem;
+    font-family: 'Open Sans', sans-serif;
+    border: 0.1rem solid #040200;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+}
+.contact_section .btn_submit:hover,.contact_section .btn_submit:focus{
+    background: white;
+    color: #040200;
+}
+.cardone_section{
+    padding: 8rem 0;
+}
+.cardone_section .text_box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.cardone_section .text_box span{
+    text-align: center;
+}
+.cardone_section .text_box .img_box{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.cardone_section .text_box .img_box img{
+    width: 12.5rem;
+}
+.cardone_section .col-12:nth-child(2) .text_box .img_box img{
+    width: 6.5rem;
+}
+.cardone_section .col-12:nth-child(3) .text_box .img_box img{
+    width: 4.75rem;
+}
+.cardone_section .text_box p{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #231D1A;
+    margin-bottom: 1rem;
+}
+.cardone_section .text_box li{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #231D1A;
+    text-align: left;
+    padding-left: 2rem;
+    position: relative;
+    margin-bottom: .25rem;
+}
+.cardone_section .text_box li:after{
+    content: '';
+    background: #040200;
+    width: .4rem;
+    height: .4rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: .6rem;
+}
+footer{
+    background: #040200;
+    padding: 3rem 0;
+    padding-top: 3.5rem;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-align: right;
+}
+footer .logo_box{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 2.75rem;
+    margin-top: 1rem;
+}
+footer .logo_box .logo{
+    width: 2.25rem;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+footer .logo_box .logo_text{
+    font-family: 'FuturaPTLight';
+    color: #FC8002;
+    font-size: 1.75rem;
+}
+footer .head {
+    font-family: 'FuturaPTBook';
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: .25rem;
+    margin-top: -1rem;
+}
+footer form{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+footer form input{
+    width: 100%;
+    border: 0;
+    height: 2.5rem;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    color: #040200;
+    font-size: 1rem;
+    font-family: 'FuturaPTBook';
+    padding-right: 6rem;
+}
+footer form input::placeholder{
+    font-family: 'FuturaPTBook';
+    color: #040200;
+}
+footer form .btn_submit{
+    background: #EB983C;
+    border: 0;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    font-size: 1.1rem;
+    padding: .45rem 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: 'FuturaPTBook';
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+footer form .btn_submit:hover,footer form .btn_submit:focus{
+    background: #FC7A01;
+}
+.detail_section .col-12{
+overflow: hidden;
+}
+.detail_section .col-12 img{
+transition: all .5s ease;
+}
+.detail_section .row:hover .col-12 img{
+transform: scale(1.05);
+}
